@@ -1,0 +1,8 @@
+export { Hero } from './Hero'
+export { Stats } from './Stats'
+export { ObligationsSection } from './ObligationsSection'
+export { ExpertisesSection } from './ExpertisesSection'
+export { SectorsSection } from './SectorsSection'
+export { Testimonials } from './Testimonials'
+export { CTASection } from './CTASection'
+export { PartnersSection } from './PartnersSection'

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <defs>
+    <pattern id="subtle-isometric-grid" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+      
+      <path d="
+        M -100 50 L 300 250
+        M -100 -50 L 300 150
+        M -100 150 L 300 350
+        M -100 150 L 300 -50
+        M -100 50 L 300 -150
+        M -100 250 L 300 50
+      " fill="none" stroke="#1B4332" stroke-width="0.5" opacity="0.1"/>
+      
+      <g fill="#D4A84B" opacity="0.15">
+        <circle cx="0" cy="0" r="1.5"/>
+        <circle cx="100" cy="0" r="1.5"/>
+        <circle cx="50" cy="25" r="1.5"/>
+        <circle cx="150" cy="25" r="1.5"/>
+        <circle cx="0" cy="50" r="1.5"/>
+        <circle cx="100" cy="50" r="1.5"/>
+        <circle cx="50" cy="75" r="1.5"/>
+        <circle cx="150" cy="75" r="1.5"/>
+        <circle cx="0" cy="100" r="1.5"/>
+        <circle cx="100" cy="100" r="1.5"/>
+        <circle cx="50" cy="125" r="1.5"/>
+        <circle cx="150" cy="125" r="1.5"/>
+        <circle cx="0" cy="150" r="1.5"/>
+        <circle cx="100" cy="150" r="1.5"/>
+        <circle cx="50" cy="175" r="1.5"/>
+        <circle cx="150" cy="175" r="1.5"/>
+      </g>
+    </pattern>
+  </defs>
+  
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#subtle-isometric-grid)"/>
+</svg>
