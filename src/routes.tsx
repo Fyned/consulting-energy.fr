@@ -37,6 +37,7 @@ const Tertiaire = lazy(() => import('@/pages/secteurs/Tertiaire'))
 const Industrie = lazy(() => import('@/pages/secteurs/Industrie'))
 const Collectivites = lazy(() => import('@/pages/secteurs/Collectivites'))
 const LogementCollectif = lazy(() => import('@/pages/secteurs/LogementCollectif'))
+const Agricole = lazy(() => import('@/pages/secteurs/Agricole'))
 
 // Ressources
 const Blog = lazy(() => import('@/pages/ressources/Blog'))
@@ -121,6 +122,7 @@ export function AppRoutes() {
           <Route path="/secteurs/industrie" element={<Industrie />} />
           <Route path="/secteurs/collectivites" element={<Collectivites />} />
           <Route path="/secteurs/logement-collectif" element={<LogementCollectif />} />
+          <Route path="/secteurs/agricole" element={<Agricole />} />
 
           {/* Ressources */}
           <Route path="/ressources/blog" element={<Blog />} />

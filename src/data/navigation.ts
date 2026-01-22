@@ -4,7 +4,6 @@ import {
   ClipboardCheck,
   Calculator,
   FileCheck,
-  Users,
   Building,
   Factory,
   Landmark,
@@ -16,6 +15,7 @@ import {
   Layers,
   Fan,
   Droplets,
+  Wheat,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -163,12 +163,6 @@ export const navigation: NavItem[] = [
         description: 'Diagnostic complet de performance',
         icon: ClipboardCheck,
       },
-      {
-        label: 'Accompagnement OPERAT',
-        href: '/expertises/accompagnement-operat',
-        description: 'Déclaration plateforme ADEME',
-        icon: Users,
-      },
     ],
     featured: {
       title: 'Êtes-vous concerné ?',
@@ -205,6 +199,12 @@ export const navigation: NavItem[] = [
         description: 'Copropriétés et bailleurs sociaux',
         icon: Home,
       },
+      {
+        label: 'Agricole',
+        href: '/secteurs/agricole',
+        description: 'Exploitations et bâtiments agricoles',
+        icon: Wheat,
+      },
     ],
     featured: {
       title: 'Tous secteurs d\'activité',
@@ -239,6 +239,7 @@ export const footerNavigation = {
     { label: 'Industrie', href: '/secteurs/industrie' },
     { label: 'Collectivités', href: '/secteurs/collectivites' },
     { label: 'Logement Collectif', href: '/secteurs/logement-collectif' },
+    { label: 'Agricole', href: '/secteurs/agricole' },
   ],
   legal: [
     { label: 'Mentions Légales', href: '/mentions-legales' },

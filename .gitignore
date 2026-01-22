@@ -37,3 +37,7 @@ tmp*-cwd
 .claude/
 *.claude*
 CLAUDE.md
+
+# IH-Energy project docs (local only)
+IH-ENERGY.MD
+IH-ENERGY-KILAVUZ.md
